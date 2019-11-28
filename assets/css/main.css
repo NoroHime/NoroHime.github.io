@@ -6,8 +6,26 @@
  * 2. Prevent adjustments of font size after orientation changes in
  *    IE on Windows Phone and in iOS.
  */
+.highlighter-rouge {
+ font-weight: 400;
+ border: 1px solid #ffa50063 !important;
+ -webkit-border-radius: 3px;
+ border-radius: 3px;
+ padding: 0.1rem 0.5rem;
+ background: #ffa50033 !important;
+ margin: auto .25rem;
+}
+
+a{
+  color: #f50;
+}
+
+.highlight{
+  background-color: transparent !important;
+}
+
 html {
-  line-height: 1.15;
+  line-height: 1.8rem !important;
   /* 1 */
   -ms-text-size-adjust: 100%;
   /* 2 */
