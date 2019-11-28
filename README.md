@@ -1,1 +1,2 @@
-# nothing to wrote README
+# 小破绽，不要看
+<https://norohi.me>
